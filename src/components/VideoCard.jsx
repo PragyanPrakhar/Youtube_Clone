@@ -3,7 +3,7 @@ const VideoCard = ({ info }) => {
     if (!info) {
         return null; // or you could return a loading indicator
     }
-    console.log(info);
+    // console.log(info);
 
     const { snippet, statistics } = info;
     const { channelTitle, title, thumbnails } = snippet;
